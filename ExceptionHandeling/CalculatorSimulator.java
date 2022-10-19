@@ -22,11 +22,11 @@ class TaxCalculator{
 
 	public void calculateTax() throws Exception {
 		
-		if(!isIndian) { try {
+		if(!isIndian) { try {				//if not indian then 
 		
 			  System.out.println("not indian not valid");
 	
-		}catch(Exception e) {
+		}catch(Exception e) {	
 			e.printStackTrace();
 		}
 		}
